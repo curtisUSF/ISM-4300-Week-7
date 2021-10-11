@@ -27,8 +27,6 @@ namespace FromAtoB
                     count = b - a;
                     b = 1;
                     a = 1;
-
-
                 }
 
 
@@ -38,8 +36,6 @@ namespace FromAtoB
                     {
                         a++;
                         count++;
-
-
                     }
 
 
@@ -50,14 +46,12 @@ namespace FromAtoB
                         {
                             a = a / 2;
                             count++;
-
                         }
 
                         else if (a % 2 != 0)
                         {
                             a++;
                             count++;
-
                         }
 
                     }
